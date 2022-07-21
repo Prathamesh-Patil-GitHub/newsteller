@@ -3,6 +3,9 @@ import './App.css';
 import React, { Component } from 'react'
 import Navbar from './components/Navbar';
 import News from './components/News';
+import SignUp from './components/SignUp';
+import Login from './components/Login';
+import SavedNews from './components/SavedNews';
 import {
   BrowserRouter,
   Routes,
@@ -23,6 +26,9 @@ export default class App extends Component {
             <Route exact path="/health" element={<News key='health' country='in' pageSize={6} apiKey={this.apiKey} category='health'/>}/>
             <Route exact path="/science" element={<News key='science' country='in' pageSize={6} apiKey={this.apiKey} category='science'/>}/>
             <Route exact path="/technology" element={<News key='technology' country='in' pageSize={6} apiKey={this.apiKey} category='technology'/>}/>
+            <Route exact path="/saved-news" element={<SavedNews/>}/>
+            <Route exact path="/signup" element={<SignUp/>}/>
+            <Route exact path="/login" element={<Login/>}/>
           </Routes>
         </BrowserRouter>
         
