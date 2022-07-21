@@ -34,3 +34,8 @@ In order to fetch the news, you have to purchase an api key from [News API](http
 
 ## Content of env.local file :scroll:
 `REACT_APP_API_KEY= //Your api key`
+
+## Front End Snap - 
+<p align="center">
+  <img src="https://github.com/Prathamesh-Patil-GitHub/Newsteller/blob/main/src/img/Output.gif">
+</p>
