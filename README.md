@@ -1,10 +1,33 @@
 # Newsteller
-NewsTeller is a news reporting website which provides daily news and current updates on Tech, Health, Sports and many more topics, developed using React JavaScript Library.
+NewsTeller is a news reporting web application developed on the MERN stack, which provides daily news and current updates on Tech, Health, Sports and many more topics.
+
+## Technologies Used:
+- Front End -
+  - HTML
+  - CSS
+  - JavaScript
+  - Bootstrap
+  - ReactJs
+
+- Back End-
+  - NodeJs
+  - Express
+  - JWT
+  - MD5
+
+- Database
+  - Mongo DB
+  - Mongoose
+
+## About NewsTeller-
 You can choose any topic on which you want to read the news.
 You will be provided with the headlines and their respective descriptions.
 If you are interested in that topic, you can click on the read more to read more about the news.
-This is a single page application, so you will have a better user experience as you will not be directed to different pages.
-So next time when you are looking for some hot potatoes, run this project and get some hot headlines ;-)
+As I have used React Router, this is a single page application, No reloading hectic :)
+
+You can also save news of your choice into your account to access them later, you have to Sign Up or Log In to do so.
+
+I hope this project will come in handy when you want to read concise news ;-)
 <br/><br/>
 ## NOTE<br/>
 In order to fetch the news, you have to purchase an api key from [News API](https://newsapi.org) and insert that key as an environment variable in env.local file
