@@ -1,3 +1,7 @@
+// *****************************
+// @author - Prathamesh Patil  **
+// ****************************
+
 import React, { Component } from 'react'
 import NetworkError from './NetworkError';
 import NewsItem from './NewsItem'
