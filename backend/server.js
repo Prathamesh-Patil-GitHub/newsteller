@@ -13,7 +13,7 @@ const user = require("../backend/models/user");
 const news = require("../backend/models/news");
 const md5 = require("md5");
 const cors = require("cors");
-mongoose.connect("mongodb+srv://<username>:<password>@my-cluster.9fh8spg.mongodb.net/newsteller?retryWrites=true&w=majority");
+mongoose.connect("<mongodb connection string goes here...>");
 
 
 // parse application/json
