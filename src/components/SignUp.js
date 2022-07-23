@@ -80,6 +80,7 @@ export class SignUp extends Component {
           location.assign("/");
         }else{
           this.setState(data);
+          setTimeout(() => { this.setState({error:false,message:null}); this.forceUpdate(); }, 5000);
         }
       })
       .catch(error => {console.log(error)});

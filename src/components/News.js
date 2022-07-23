@@ -9,13 +9,15 @@ import Spinner from './Spinner'
 
 
 export default class News extends Component {
-    constructor() {
+    constructor(props) {
         super();
         this.state = {
+            country: localStorage.getItem("country"),
             articles: [],
             page: 1,
             totalResults: 0,
             loading: false,
+            searchKey: null,
             problemOccrured: false,
             isAlertPresent: false,
             alertMessage:null,
@@ -36,7 +38,7 @@ export default class News extends Component {
 
     updatePage = async ()=>{
         this.setState({ loading: true });
-        let url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
+        let url = `https://newsapi.org/v2/top-headlines?country=${this.state.country}&category=${this.props.category}&apiKey=${this.props.apiKey}&page=${this.state.page}&pageSize=${this.props.pageSize}`;
         let data = await fetch(url).catch(() => { this.setState({ problemOccrured: true }) });
         let parsedData = await data.json();
         this.setState({

@@ -92,7 +92,7 @@ export class Login extends Component {
                     }
                 })
                 .catch(error => { 
-                    this.setState({ error: true, message: "Problem occured while reaching the server :( Check your internet connection !" }) 
+                    this.setState({ error: true, message: "Problem occured while reaching the server:( Check your internet connection !" }) 
                     setTimeout(() => { this.setState({ error: false, message: null }); this.forceUpdate(); }, 5000);
                 });
         }
