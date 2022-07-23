@@ -24,6 +24,8 @@ export default class App extends Component {
 
   apiKey=process.env.REACT_APP_API_KEY;
   render() {
+    
+    //LOADING THE COUNTRY IN LOCALSTORAGE IF IT'S NOT ALREADY THERE
     if(!localStorage.getItem("country")){
       localStorage.setItem("country","in");
     }
