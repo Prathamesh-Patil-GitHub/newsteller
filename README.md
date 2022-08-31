@@ -11,7 +11,7 @@ NewsTeller is a news reporting web application developed on the MERN stack, whic
 
 - Back End-
   - NodeJs
-  - Express
+  - ExpressJs
   - JWT
   - MD5
 
