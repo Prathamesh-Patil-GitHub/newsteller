@@ -38,5 +38,5 @@ In order to fetch the news, you have to purchase an api key from [News API](http
 
 ## Front End Snap - 
 <p align="center">
-  <img src="https://github.com/Prathamesh-Patil-GitHub/Newsteller/blob/main/src/img/Output.gif">
+  <img src="https://github.com/Prathamesh-Patil-GitHub/newsteller/blob/main/src/img/Output.gif">
 </p>
